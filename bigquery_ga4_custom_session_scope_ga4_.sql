@@ -1,4 +1,5 @@
 -- events, sessions, hostname, etc.
+-- created for client xxxxxx from the previous universal analyitcs query
 with page_hostname as
 (
 select
