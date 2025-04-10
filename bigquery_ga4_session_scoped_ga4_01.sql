@@ -1,3 +1,5 @@
+-- created for client usng the equivalent universal analytics query
+
 WITH base_events AS (
     SELECT
       (
