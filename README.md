@@ -15,9 +15,11 @@ Both reports ( mysql_group_report_1.sql and mysql_hotel_payment_report_1..sql ) 
 # BigQuery GA4 Examples
 
 - The following is an excelent query for answering GA4 attribution questions
-   bigquery_ga4_event_scoped_attribution_view.sql
+
+bigquery_ga4_event_scoped_attribution_view.sql
 
 - The following are session scoped ga4 queries I made for various clients
- - bigquery_ga4_custom_session_scope_ga4_.sql
- - bigquery_ga4_session_attribution_modeling.sql
- - bigquery_ga4_session_scoped_ga4_01.sql
+
+bigquery_ga4_custom_session_scope_ga4_.sql
+bigquery_ga4_session_attribution_modeling.sql
+bigquery_ga4_session_scoped_ga4_01.sql
