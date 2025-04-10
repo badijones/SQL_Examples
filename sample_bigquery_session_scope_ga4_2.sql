@@ -289,9 +289,6 @@ where
 hostname is not null  -- hostname and pages_per_session are only null when where clauses in first with statement are not satisfied (excludes sessions where only events are 'session_start', 'first_visit', 'view_size_guide')
 and pages_per_session is not null
 and session_landing_page is not null -- why are some pages null? (need to investigate)
-group by
-all
-order by
-date desc,
-sessions desc;
+group by all
+order by date desc, sessions desc;
 
